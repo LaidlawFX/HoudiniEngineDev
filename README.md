@@ -55,33 +55,24 @@ As far as suggested requested features this is where this git repository is focu
   - UI   - Parameter Options
     - folder end group, menu mini, menu replace, menu toggle,
   - Geo  - Geometry Types
-    - 
   - Attr - Data Types
-    - 
-  - Prints - 
-    - 
+  - Prints 
+    
 ### Tier 4
   - UI   - Parameters
     - redundant parameters like menu ordered, operator path, operator list, file directory/geometry/image logarithmic float/integer, min/max float, color etc.
   - UI   - Parameter Options
-    - 
   - Geo  - Geometry Types
-    - 
-  - Attr - Data Types
-    - 
   - Inputs & Ouputs
   - Wiring multiple nodes together
+  - Scripts
   
 ### Tier 5
 This tier is more for for error handling if one of these options does find it's way in. You don't want your whole system to crash because of an exception you could have have prevented. Additional this is for feature we never implemented, but could. Some were not fully implemented in the api at the time of our integrations, too.
   - UI   - Parameters
     - Key-Value Dictionary, Icon Strip,, Geometry Data, Data, Button Strip
   - UI   - Parameter Options
-    - 
   - Geo  - Geometry Types
-    - 
-  - Attr - Data Types
-    - 
   - Handles
     - These are a very cool option, but before they were implemented we just passed the geo data, based on the native handles. If you don't have native handles this becomes a lot more complex.
 
